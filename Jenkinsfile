@@ -8,7 +8,6 @@ pipeline{
         }
     stage('SonarQube Analysis') {
        steps{
-	 def mvn = tool 'mymaven';
          withSonarQubeEnv() {
          sh "${mvn}/bin/mvn sonar:sonar"
 	      }
