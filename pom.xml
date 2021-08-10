@@ -22,6 +22,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.projectKey>mysonar-demo</sonar.projectKey>
 	</properties>
 
 	<dependencies>
